@@ -1,0 +1,17 @@
+.color {
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 80px;
+}
+
+.ORANGE {
+  color: #ff9130;
+}
+
+.RED {
+  color: #c70039;
+}
+
+.PURPLE {
+  color: #7743db;
+}
