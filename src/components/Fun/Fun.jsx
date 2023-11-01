@@ -14,7 +14,6 @@ const Fun = () => {
       x: currentPosition,
     },
     onChange: e => {
-      console.log(e.value.x);
       setCurrentPosition(e.value.x);
     },
     config: {
@@ -27,7 +26,6 @@ const Fun = () => {
       from: { x: currentPosition },
       to: { x: 500 },
     });
-    console.log("osjdfkj");
   };
 
   const handleMouseLeave = () => {
@@ -35,7 +33,6 @@ const Fun = () => {
       from: { x: currentPosition },
       to: { x: 0 },
     });
-    console.log("osjdfkj");
   };
 
   return (
